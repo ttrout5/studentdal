@@ -1,0 +1,8 @@
+---
+applications:
+- name: student-data-api
+instances: 1
+path: /target/studentdal-0.0.1-SNAPSHOT.jar
+services:
+- mysql-project-db
+timeout: 180
