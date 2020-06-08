@@ -7,7 +7,6 @@ deploy:
     secure: rUQ/U6gPPIcRIsChgCgqOjFouOblpScbKTlSDCJjlBQtDWoh23dM1B6Ri4EmI0GMmLHDApzprEA7l12+aDk/eRQTe8NRTg3sxZGdj2kWqD2VKhvlRE+zjQdjESylaSVAEfZT9/5gY55a8U0m/ju/ex0meV3OPxI5+RfhEWdY3F6i66XSod+OaZu4wT04vAHay33Kpgnb9KEJwkEU0vsuC1aJRxr1RaFZjQrz1hxMCAPyuyaTgKFNq79bO46KZ1QuySqBS+xba0FzWBeH+d/SF2BrtA4v8iPev5LHu/ehruzAmx24ucS9ZGg8stsSSgGY2Bd5FPs43Sru1ETKcFBzu54RAdaY8cCwhD8q6W8bUz0SYFpnC4eYfGuQRixgb7rAHFJONaiE7jej0t0KydFEs8A9Mo91K6fjEHlPR82m0q5pgHvbbq/S+5RtFN/fTEueHtBjlulI2BQxVCzavpoSduDR61DcvrUMzQFN1yv3V8Ndwz1VlfeJuZj5P9DGCBvWKF+E79tIw9EWs+0fHFfOgNLFocXbluEMORlMJCV653Tn+jqKlYh5AaIcv4wrFGYxPwtI3ke4UaO4lA+QH0Ff/+76vitxtZB4WUmuUc3d+fue8Rz3CoLu2wFuYsJABPOTLKtcMzrR0G/bYzdIi4eJ+fpatQWVUyyk9x7q4PJcyKA=
   organization: Troutman
   space: dev
-  manifest: manifest-dev.yml
   on:
     repo: ttrout5/studentdal
   skip_cleanup: 'true'
