@@ -41,7 +41,29 @@ class StudentdalApplicationTests {
 
 	@Test
 	public void shouldUpdateStudent() {
+		Optional<Student> studentOptional = studentRepository.findById(1L);
 
+		if (studentOptional.isPresent()) {
+			Student student = studentOptional.get();
+			student.setFee(40d);
+			studentRepository.save(student);
+
+		} else {
+			System.out.println("Student not found in database!");
+		}
+
+	}
+
+	@Test
+	public void shouldDeleteStudent() {
+		Optional<Student> studentOptional = studentRepository.findById(3L);
+
+		if (studentOptional.isPresent()) {
+			Student student = studentOptional.get();
+			studentRepository.delete(student);
+		} else {
+			System.out.println("Student not found in database!");
+		}
 	}
 
 }
