@@ -9,5 +9,5 @@ deploy:
   space: dev
   manifest: manifest-dev.yml
   on:
-    tags: true
+    branch: master
   skip_cleanup: 'true'
