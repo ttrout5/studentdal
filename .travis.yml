@@ -9,5 +9,5 @@ deploy:
   space: dev
   manifest: manifest-dev.yml
   on:
-    branch: master
+    repo: ttrout5/studentdal
   skip_cleanup: 'true'
